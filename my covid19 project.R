@@ -40,7 +40,7 @@ covid_df_all_states_daily_sum
 covid_top_10 <- head(covid_df_all_states_daily_sum, 10)
 covid_top_10
 
-## Getting vectors
+## Getting vectors 
 
 countries <- covid_top_10$Country_Region
 tested_cases <- covid_top_10$tested
@@ -57,7 +57,7 @@ names(active_cases) <- countries
 names(hospitalized_cases) <- countries
 
 
-## Identifying 
+## Identifying
 
 positive_cases
 sum(positive_cases)
@@ -67,11 +67,11 @@ positive_cases/sum(positive_cases)
 positive_cases/tested_cases
 
 
-## Conclusion
+## Conclusion 
 
 positive_tested_top_3 <- c("United Kingdom" = 0.11, "United States" = 0.10, "Turkey" = 0.08)
 
-# Creating vectors
+# Creating vectors 
 united_kingdom <- c(0.11, 1473672, 166909, 0, 0)
 united_states <- c(0.10, 17282363, 1877179, 0, 0)
 turkey <- c(0.08, 2031192, 163941, 2980960, 0)
